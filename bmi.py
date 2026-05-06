@@ -7,9 +7,9 @@ def calculate_bmi(weight,height):
 
     if bmi < 18.5:
         return -1
-    elif bmi < 25:
+    elif bmi >=18.5 and bmi <= 25:
         return 0
-    elif bmi > 25:
+    else: 
         return 1
 
 
